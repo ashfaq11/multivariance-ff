@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: DCPT.DCPT1224.Dcpt1224ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.853 s <<< FAILURE! -- in DCPT.DCPT1224.Dcpt1224ApplicationTests
+DCPT.DCPT1224.Dcpt1224ApplicationTests.testGetFFStringVariation -- Time elapsed: 0.665 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <All> but was: <{"timestamp":"2024-06-12T07:13:07.497+00:00","status":404,"error":"Not Found","path":"/user/flag-string-variation"}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at DCPT.DCPT1224.Dcpt1224ApplicationTests.testGetFFStringVariation(Dcpt1224ApplicationTests.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
