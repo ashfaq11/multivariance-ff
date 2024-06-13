@@ -1,4 +1,4 @@
-package com.multivariance;
+package com.multivariate;
 
 import io.harness.cf.client.api.BaseConfig;
 import io.harness.cf.client.api.CfClient;
@@ -16,14 +16,14 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class MultivarianceApplication {
+public class MultivariateApplication {
 	String apiKey = "2351c0b5-f2e6-4b2d-be5c-c858f242b6a1";
 	CfClient cfClient;
-	private final Logger logger = LoggerFactory.getLogger(MultivarianceApplication.class);
+	private final Logger logger = LoggerFactory.getLogger(MultivariateApplication.class);
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(MultivarianceApplication.class, args);
+		SpringApplication.run(MultivariateApplication.class, args);
 	}
 
 

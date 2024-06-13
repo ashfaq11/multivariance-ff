@@ -1,4 +1,4 @@
-package com.multivariance.controller;
+package com.multivariate.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.multivariance.service.UserService;
+import com.multivariate.service.UserService;
 
 @RestController
 @RequestMapping("user/flag")

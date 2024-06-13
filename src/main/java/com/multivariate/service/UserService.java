@@ -1,14 +1,11 @@
-package com.multivariance.service;
+package com.multivariate.service;
 
 import com.google.gson.JsonObject;
-import com.multivariance.dto.User;
 
 import io.harness.cf.client.api.CfClient;
 import io.harness.cf.client.dto.Target;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor

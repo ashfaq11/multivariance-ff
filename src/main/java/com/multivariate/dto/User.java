@@ -1,4 +1,4 @@
-package com.multivariance.dto;
+package com.multivariate.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
