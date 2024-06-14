@@ -38,8 +38,8 @@ public class MultivariateApplication {
 		cfClient = new CfClient(new HarnessConnector(apiKey, connectorConfig), options);
 
 		cfClient.waitForInitialization();
-		cfClient.on(Event.READY, result -> logger.info("Harness client initialized."));
-		cfClient.on(Event.CHANGED, this::flagChangeEvent);
+		//cfClient.on(Event.READY, result -> logger.info("Harness client initialized."));
+		//cfClient.on(Event.CHANGED, this::flagChangeEvent);
 		return cfClient;
 	}
 
