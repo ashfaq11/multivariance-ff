@@ -1,4 +1,5 @@
-Harness Multivariate Flag
+Harness Multivariate Flag:
+
 Multivariate Feature Flags allow you to serve different variations of a flag to multiple user groups at one time. There is no limit to the number of variations that you can add to a multivariate flag, and you can use strings, numbers, or JSON to define the different variants.
 In our example, we have created one feature flag with five variations: Multivariate_String. This will return different string values for each variation. The variations are created for CRUD operations for each feature flag:
 •	Variation_C: Create
@@ -19,11 +20,13 @@ In our example, we have created ten targets. Five targets have been assigned to 
 8.	user18@trinet.com
 9.	user19@trinet.com
 10.	user20@trinet.com
+    
 Add and Manage Target Groups
 Target groups are collections of targets that allow you to serve Feature Flag Variations to a list of users in bulk. You can group targets either by picking individual targets or by defining rules that automatically map targets to a target group.
 In our example, we have created two target groups:
 1.	Admin_Group
 2.	Normal_Group
+   
 Targets included in each group:
 •	Admin_Group
 o	user11@trinet.com
