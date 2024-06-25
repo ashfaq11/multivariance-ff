@@ -53,3 +53,8 @@ In our example, we created one target group named “PercentageRollout_Group” 
 5.	user5@trinet.com
 The percentage was allocated like 20% for the TRUE variation and 80% for the FALSE variation at the first stage. In this case, only one user will see the TRUE variation, and there will be no change for the rest of the users.
 
+endpoints:
+
+Host:port://User/flag/string-variation?userEmail=user1@trinet.com
+Host:port://User/flag/percentage-rollout?userEmail=user1@trinet.com
+
