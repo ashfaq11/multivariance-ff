@@ -56,5 +56,6 @@ The percentage was allocated like 20% for the TRUE variation and 80% for the FAL
 endpoints:
 
 Host:port://User/flag/string-variation?userEmail=user1@trinet.com
+
 Host:port://User/flag/percentage-rollout?userEmail=user1@trinet.com
 
