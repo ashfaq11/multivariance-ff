@@ -46,6 +46,6 @@ public class UserService {
     }
 
     private boolean ffBooleanVariation(String userEmail){
-        return cfClient.boolVariation("My_Test_Flag", harnessFFProvider(userEmail), false);
+        return cfClient.boolVariation("percentage_rollout", harnessFFProvider(userEmail), false);
     }
 }
